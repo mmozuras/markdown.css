@@ -1,0 +1,117 @@
+body {
+  color: #333;
+  background-color: #fff;
+  font-family: "Georgia", "Lucida Sans", sans-serif;
+  line-height: 1.5em;
+  padding: 1em;
+  margin: auto;
+  max-width: 42em;
+}
+
+a {
+  color: #1693a5;
+  text-decoration:none;
+}
+a:visited {
+  color: #0e5b66;
+}
+a:hover {
+  color: #0e5b66;
+}
+a:active {
+  color: #0e5b66;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover, a:active {
+  outline: 0;
+}
+
+::-moz-selection {
+  background: rgba(205,215,182,0.5);
+  color: #000000;
+}
+::selection {
+  background: rgba(205,215,182,0.5);
+  color: #000000;
+}
+a::-moz-selection {
+  background: rgba(205,215,182,0.5);
+  color: #0e5b66;
+}
+a::selection {
+  background: rgba(205, 215, 182, 0.5);
+  color: #0e5b66;
+}
+
+p {
+  margin: 1em 0;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  color: #0f0f0f;
+  line-height: 1em;
+}
+h5,h6 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.5em;
+}
+h5 {
+  font-size: 1.2em;
+}
+h6 {
+  font-size: 0.9em;
+}
+
+blockquote {
+  color: #666;
+  margin: 0;
+  padding-left: 2.5em;
+  border-left: 0.6em #e2e2e2 solid;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #e2e2e2;
+  margin: 1em 0;
+  padding: 0;
+}
+
+pre, code {
+  color: #000;
+  font-family: monospace, monospace;
+  font-size: 0.9em;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 2em;
+}
+li p:last-child {
+  margin: 0
+}
